@@ -10,7 +10,6 @@ The Book titled <a href="https://www.springer.com/gp/book/9783030418854"> Distri
 **Research Interests** 
 
 Compilers and Programming Languages
-
 High Performance Computing
 
 Domain Specific Languages
