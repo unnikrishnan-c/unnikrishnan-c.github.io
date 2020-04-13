@@ -7,19 +7,19 @@ I am an Assistant Professor in the <a href="https://iitpkd.ac.in/computer-scienc
 "Custom Code generation for a Graph DSL", B.Gogoi, U.Cheramangalath, and R.Nasre accepted in GPGPU@PPoPP 2020<br/>
 The Book titled <a href="https://www.springer.com/gp/book/9783030418854"> Distributed Graph Analytics: Programming, Languages and Their Compilation</a>   is expected to released by June,2020.<br\>
 
-**Research Interests** <br\>
+**Research Interests** 
 
-Compilers and Programming Languages<br\>
+Compilers and Programming Languages
 
-High Performance Computing<br\>
+High Performance Computing
 
-Domain Specific Languages<br\>
+Domain Specific Languages
 
-Language Based Security<br\>
+Language Based Security
 
-Graph Analytics<br\>
+Graph Analytics
 
-Internet of Things<br\>
+Internet of Things
 
 **DBLP**<br/>
 
