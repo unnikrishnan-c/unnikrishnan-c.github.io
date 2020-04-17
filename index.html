@@ -47,8 +47,8 @@ body, html {
 
 <button class="tablink" onclick="openPage('Home', this, 'silver')">Home</button>
 <button class="tablink" onclick="openPage('News', this, 'silver')" id="defaultOpen">News</button>
-<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Interests</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">Publications</button>
 
 <div id="Home" class="tabcontent">
   <h3>Biography</h3>
@@ -70,13 +70,39 @@ body, html {
 </div>
 
 <div id="Contact" class="tabcontent">
-  <h3>Contact</h3>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
+  <h3>Interests</h3>
+  <p>
+     <li>High Performance Computing</li>
+          
+     <li>Domain Specific Languages</li>
+          
+      <li>Graph Analytics</li>
+
+       <li> Lnaguage Based Security </li>
+
+        <li> Internet of Things </li>
+  </p>
 </div>
 
 <div id="About" class="tabcontent">
-  <h3>About</h3>
-  <p>Who we are and what we do.</p>
+  <h3>Publications</h3>
+  <p>
+    
+    <ul>
+<li> Falcon: A Graph Manipulation Language for Heterogeneous Systems.  Unnikrishnan Cheramangalath, Rupesh Nasre, Y.N.Srikant.
+  ACM TACO,   2015.<\li>
+    
+    <li> DH-Falcon: A Language for Large-Scale Graph Processing on Distributed Heterogeneous Systems. Unnikrishnan Cheramangalath, Rupesh Nasre,Y.N.Srikant.
+  IEEE CLUSTER,   2017.<\li>
+    
+   <li>Large Scale Graph Processing in a Distributed Environment. Nitesh Upadhyay, Parita Patel, Unnikrishnan Cheramangalath, Y.N.Srikant.
+  EuroPar Workshops,   2017.<\li>
+  <li>Taming the War in Memory: A Resilient Mitigation Strategy Against Memory Safety Attacks in CPS. Eyasu Getahun Chekole, Unnikrishnan Cheramagalath, Sudipta Chattopadhyay, Martin Ochoa, Guo Huaqun
+    Arxiv (preprint),   2018.<\li>
+  <li> Custom Code Generation for a Graph DSL. Bikash Gogoi, Unnikrishnan Cheramangalth,Rupesh Nasre. GPGPU@PPoPP,   2020.<\li>
+<\ul>
+  </p>
+  
 </div>
 
 <script>
