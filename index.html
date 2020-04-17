@@ -2,92 +2,11 @@
 <html lang="en-us">
 
 <head>
-<!--
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.5.0">
-
-  <meta name="author" content="Unnikrishnan Cheramangalath">
-  
-  <meta name="description" content="Assistant Professor">
-  
-  <link rel="alternate" hreflang="en-us" href="/">
-  
-  
-  
-  <meta name="theme-color" content="#2962ff">
-  
-
-  
-  
-  
-  
-    
-<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-
-    
-    
-    
-      
-    
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-        
-      
-    
-
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
-    
-
-    
-
-  
-
-  
-  
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
-  
-
-  
-  
-  
-  <link rel="stylesheet" href="/css/academic.min.8dd578cd76c3629e6ab58a6a8cf64508.css">
-
-  
-
-  
-
-
-
-
-  
-
-
-  
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Unnikrishnan Cheramangalath">
-  
-
-  <link rel="manifest" href="/index.webmanifest">
--->
-  <!-- <link rel="icon" type="image/png" href="/img/icon-32.png"> -->
-  <!-- <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png"> -->
-
-  <!--  <link rel="canonical" href="/"> -->
-
-    
-  
-  
-  <!-- <meta property="twitter:card" content="summary"> -->
-  <meta property="og:site_name" content="Unnikrishnan Cheramangalath">
+<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Interests', this, 'blue')">Interests</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+	<meta property="og:site_name" content="Unnikrishnan Cheramangalath">
   <meta property="og:url" content="/">
   <meta property="og:title" content="Unnikrishnan Cheramangalath">
   <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="/img/icon-192.png">
@@ -359,12 +278,19 @@
     <!--   <p>Here is my <a href="https://kartiknagar.github.io/files/CV.pdf">CV</a>.</p>-->
 <!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
-<h2 id="news">News</h2>
+ <div id="News" class="tabcontent">
+  <h3>News</h3>
+
 <ul>
+	
 <li>&lsquo;<em>Custom Code generation for a Graph DSL, B.Gogoi, U.Cheramangalath, and R.Nasre accepted in GPGPU@PPoPP 2020 <\li>
 	<li> &lsquo;<em>The Book  <a href="https://www.springer.com/gp/book/9783030418854"> Distributed Graph Analytics: Programming, Languages and Their Compilation</a>   will be  released in June,2020.	</li>
 </ul>
 
+</div>
+
+<div id="Interests" class="tabcontent">
+  <h3>Contact</h3>
 
     <div class="row">
 
@@ -474,7 +400,17 @@
 
 
 
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>Home is where the heart is..</p>
+</div>
 
+
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div>
 
 
   
