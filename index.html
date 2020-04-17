@@ -37,16 +37,23 @@ body, html {
   height: 100%;
 }
 
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
+#Home {background-color: silver;}
+#News {background-color: silver;}
+#Contact {background-color: silver;}
+#About {background-color: silver;}
 </style>
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('Home', this, 'red')">Biography</button>
+      <p>I am an Assistant Professor in  <a href="https://iitpkd.ac.in/computer-science-and-engineering"> CSE Discipline, IIT Palakkad</a>.  I did my PhD from Department of CSA, IISc under the guidance of <a href="https://www.csa.iisc.ac.in/~srikant/"> Prof. Y.N Srikant</a>. Prior to joining to IIT Palakkad I worked as research fellow at SUTD, Singapore.
 <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+ h2 id="news">News</h2>
+<ul>
+<li>&lsquo;<em>Custom Code generation for a Graph DSL, B.Gogoi, U.Cheramangalath, and R.Nasre accepted in GPGPU@PPoPP 2020 <\li>
+        <li> &lsquo;<em>The Book  <a href="https://www.springer.com/gp/book/9783030418854"> Distributed Graph Analytics: Programming, Languages and Their Compilation</a>   will be  released in June,2020.     </li>
+</ul>
+       
 <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
 <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
