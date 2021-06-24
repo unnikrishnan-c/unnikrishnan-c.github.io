@@ -4,6 +4,8 @@ I am an Assistant Professor in  <a href="https://iitpkd.ac.in/computer-science-a
 
 **News**<br/>
 
+Opening Available for a project on High Performance Computing and Artificial Intelligence   under < a href="https://nsmindia.in/"> NSM</a>.
+
 "Custom Code generation for a Graph DSL", B.Gogoi, U.Cheramangalath, and R.Nasre accepted in GPGPU@PPoPP 2020<br/>
 The Book titled <a href="https://www.springer.com/gp/book/9783030418854"> Distributed Graph Analytics: Programming, Languages and Their Compilation</a>   is expected to released by June,2020.
 
